@@ -1,5 +1,7 @@
 <?php
 
+if ( !defined( 'ABSPATH' ) ) exit;
+
 /* enqueue scripts and style from parent theme */
 function gswp_twentytwentyone_styles() {
     wp_enqueue_style(
